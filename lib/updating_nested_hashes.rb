@@ -1,4 +1,4 @@
-require 'pry'
+
 def update_status
    epic_tragedy = {
       :montague => {
@@ -33,7 +33,7 @@ epic_tragedy[:capulet][:heroine][:status] = "dead"
   # After your code, the following code will return the altered hash. This method must only return the modified epic_tragedy hash
   epic_tragedy
 end
-
+require 'pry'
 def add_characters
    epic_tragedy = {
       :montague => {
@@ -78,3 +78,4 @@ epic_tragedy[additional_characters] << apothecary
    epic_tragedy
 end
 binding.pry
+
